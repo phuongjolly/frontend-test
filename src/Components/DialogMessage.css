@@ -1,0 +1,72 @@
+.main-dialog {
+
+}
+
+.main-dialog .progress-bar {
+    position: relative;
+    background-color: #eeeeee;
+}
+
+.main-dialog .progress-bar .hover-message {
+    position: absolute;
+    display: none;
+    padding: 20px;
+    background-color: #222222;
+    color: #fff;
+}
+
+.main-dialog .progress-bar:hover {
+    cursor: pointer;
+}
+
+.main-dialog .progress-bar:hover .hover-message{
+    margin-top: -80px;
+    display: block;
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+.main-dialog .message-dialog {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    border: 1px solid #eee;
+    padding: 10px 20px;
+}
+
+.main-dialog .message-dialog .button-group {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.main-dialog .message-dialog .button-group button {
+    padding: 15px 25px;
+    font-size: 14px;
+    width: 150px;
+}
+
+.main-dialog .message-dialog .question {
+    font-style: italic;
+    color: blue;
+}
+
+.main-dialog .message-dialog .title {
+    padding: 10px 0;
+}
+.main-dialog .message-dialog .title span {
+    color: #ec5623;
+    font-weight: bold;
+}
+
+.main-dialog .message-dialog .message span {
+    font-weight: bold;
+}
+
+.main-dialog .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
